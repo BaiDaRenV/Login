@@ -1,0 +1,176 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#666;
+	background-color: #F3F5F7;
+	height: 990px;
+}
+.clearfix{
+	zoom: 1;
+}
+.head{
+	height: 100px;
+	background-color: #fff;
+	box-sizing: border-box;
+	
+	
+
+}
+.header{
+	width:1300px;
+	height: 100px;
+	
+	margin: 0 auto;
+	padding-top: 30px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.header .logo{
+	width: 195px;
+    height: 42px;
+    float: left;
+   
+}
+.header .fan{
+	height: 42px;
+	width: 100px;
+	float: right;
+	line-height: 40px;
+	margin-right: 300px;
+	
+}
+.fan a{
+	text-decoration: none;
+	color: #448eab;
+}
+.fan a:hover{
+	color: #f80;
+}
+.logo a{
+	width: 300px;
+    height: 42px;
+	background: url(../images/logo.png) no-repeat;
+	display: block;
+	text-indent: -999px;
+    overflow: hidden;
+}
+
+.center{
+	width: 1300px;
+	height: 400px;
+	/*background-color: #00A4FF;*/
+	margin: 100px auto 0;
+}
+.deng{
+	width: 600px;
+	height: 400px;
+	/*background-color: darkorange;*/
+	margin: 0 auto;
+}
+.deng-title{
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	font-size: 36px;
+	line-height: 100px;
+}
+.deng-p{
+	width: 600px;
+	height: 300px;
+	background-color: rgba(251, 251, 251, 0.8) !important;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px 20px 0;
+}
+.deng-p li{
+	height: 48px;
+	float: left;
+	margin: 5px 0;
+}
+.deng-p li span{
+	width: 44px;
+	height: 43px;
+	margin-right: 10px;
+	float: left;
+}
+.deng-p li span img{
+	width: 44px;
+	height: 43px;
+}
+.deng-p li input{
+	float: left;
+	width: 490px;
+	padding-left: 15px;
+	height: 48px;
+	line-height: 48px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	outline: none;
+}
+.deng-p li #aaa{
+	width: 490px;
+	height: 48px;
+}
+.deng-p .denglu{
+	width: 542px;
+	height: 44px;
+	line-height: 44px;
+	border-radius: 8px;
+	text-align: center;
+	background-color: #1296db;
+}
+.deng-p a{
+	text-decoration: none;
+	color: #fff;
+}
+.deng-p .zhuce{
+	width: 544px;
+	height: 30px;
+}
+.zhuce .s1,.zhuce .s2{
+	width: 150px;
+	height:30px ;
+	line-height: 30px;
+}
+.zhuce a{
+	color: #666;
+}
+.zhuce a:hover{
+	color: #1296db;
+}
+.zhuce .s2{
+	float: right;
+	text-align: right;
+}
+
+
+
+
+.foot{
+	width: 100%;
+	background-color: #448eab;
+	margin-top: 255px;
+	height: 100px;
+}
+.footer{
+	width: 1300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer p{
+	height: 20px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+.footer em{
+	color: red;
+	font-style: normal;
+}
